@@ -55,21 +55,18 @@ public class CustomContainerActivity extends AppCompatActivity {
                         // do something with the clicked item :D
                         switch(position) {
                             case 1:
-                                Intent a = new Intent(CustomContainerActivity.this, MainActivity.class);
+                                Intent a = new Intent(CustomContainerActivity.this, Tech.class);
                                 startActivity(a);
                                 break;
                             case 2:
-                                Intent b = new Intent(CustomContainerActivity.this, Tech.class);
+                                Intent b = new Intent(CustomContainerActivity.this, Sports.class);
                                 startActivity(b);
                                 break;
                             case 3:
-                                Intent c = new Intent(CustomContainerActivity.this, Sports.class);
+                                Intent c = new Intent(CustomContainerActivity.this, Science.class);
                                 startActivity(c);
                                 break;
-                            case 4:
-                                Intent d = new Intent(CustomContainerActivity.this, Science.class);
-                                startActivity(d);
-                                break;
+
                             default:
                         }
                         return false;
