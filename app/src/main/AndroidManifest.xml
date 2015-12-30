@@ -34,7 +34,7 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name=".MenuDrawerActivity"
+            android:name=".CustomContainerActivity"
             android:label="@string/title_activity_menu_drawer"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>

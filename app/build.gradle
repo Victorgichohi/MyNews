@@ -27,4 +27,10 @@ dependencies {
     compile('com.mikepenz:materialdrawer:4.6.3@aar') {
         transitive = true
     }
+//    compile 'com.mikepenz:google-material-typeface:x.y.z@aar' //Google Material Icons
+//    compile 'com.mikepenz:fontawesome-typeface:x.y.z@aar'     //FontAwesome
+
+    compile 'com.mikepenz:iconics-core:2.5.3@aar'
+    compile 'com.mikepenz:fontawesome-typeface:4.5.0.1@aar'
+
 }
