@@ -47,6 +47,7 @@
     <string name="drawer_item_tech">Technology</string>
     <string name="drawer_item_sports">Sports</string>
     <string name="drawer_item_science">Science</string>
+    <string name="button_text">text</string>
 
 
 </resources>
